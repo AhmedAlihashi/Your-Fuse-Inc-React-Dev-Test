@@ -10,7 +10,7 @@ class header extends Component {
             <IconButton edge="start" color="inherit" aria-label="menu">
               {/*github img */}
             </IconButton>
-            <Typography variant="h6">Crypto</Typography>
+            <Typography variant="h6">Your Fuse Inc React Dev Test</Typography>
           </Toolbar>
         </AppBar>
       </div>
