@@ -3,17 +3,11 @@ import { Grid, Typography, Card, CardContent } from "@material-ui/core";
 import { connect } from "react-redux";
 import * as dataAction from "../actions/dataAction";
 
-import Slider from "infinite-react-carousel";
-
-export class Data extends Component {
+export class DataGrid extends Component {
   componentDidMount() {
     this.props.loadData();
   }
   render() {
-    const settings = {
-      initialSlide: true,
-      slidesPerRow: 3
-    };
     const { data } = this.props;
 
     const dataList = data.length ? (
@@ -59,7 +53,7 @@ export class Data extends Component {
       <Grid
         container
         direction="row"
-        spacing={10}
+        spacing={5}
         justify="center"
         alignItems="center"
       >
@@ -75,4 +69,4 @@ const mapStateToProps = state => {
   };
 };
 
-export default connect(mapStateToProps, dataAction)(Data);
+export default connect(mapStateToProps, dataAction)(DataGrid);
