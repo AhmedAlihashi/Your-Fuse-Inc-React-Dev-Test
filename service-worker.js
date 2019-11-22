@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Your-Fuse-Inc-React-Dev-Test/precache-manifest.346cb854f04442385835ce44b5fcdf54.js"
+  "/Your-Fuse-Inc-React-Dev-Test/precache-manifest.2adc23a144188a686f22709779ba2195.js"
 );
 
 self.addEventListener('message', (event) => {
