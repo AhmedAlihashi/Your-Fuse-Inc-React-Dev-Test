@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Your-Fuse-Inc-React-Dev-Test/static/css/main.796e7f74.chunk.css",
+    "main.css": "/Your-Fuse-Inc-React-Dev-Test/static/css/main.d064e081.chunk.css",
     "main.js": "/Your-Fuse-Inc-React-Dev-Test/static/js/main.b119704f.chunk.js",
     "main.js.map": "/Your-Fuse-Inc-React-Dev-Test/static/js/main.b119704f.chunk.js.map",
     "runtime-main.js": "/Your-Fuse-Inc-React-Dev-Test/static/js/runtime-main.ca195f83.js",
@@ -8,14 +8,14 @@
     "static/js/2.50ec466e.chunk.js": "/Your-Fuse-Inc-React-Dev-Test/static/js/2.50ec466e.chunk.js",
     "static/js/2.50ec466e.chunk.js.map": "/Your-Fuse-Inc-React-Dev-Test/static/js/2.50ec466e.chunk.js.map",
     "index.html": "/Your-Fuse-Inc-React-Dev-Test/index.html",
-    "precache-manifest.2adc23a144188a686f22709779ba2195.js": "/Your-Fuse-Inc-React-Dev-Test/precache-manifest.2adc23a144188a686f22709779ba2195.js",
+    "precache-manifest.05607a3c3f5460ab93f4d9e3ec5382cf.js": "/Your-Fuse-Inc-React-Dev-Test/precache-manifest.05607a3c3f5460ab93f4d9e3ec5382cf.js",
     "service-worker.js": "/Your-Fuse-Inc-React-Dev-Test/service-worker.js",
-    "static/css/main.796e7f74.chunk.css.map": "/Your-Fuse-Inc-React-Dev-Test/static/css/main.796e7f74.chunk.css.map"
+    "static/css/main.d064e081.chunk.css.map": "/Your-Fuse-Inc-React-Dev-Test/static/css/main.d064e081.chunk.css.map"
   },
   "entrypoints": [
     "static/js/runtime-main.ca195f83.js",
     "static/js/2.50ec466e.chunk.js",
-    "static/css/main.796e7f74.chunk.css",
+    "static/css/main.d064e081.chunk.css",
     "static/js/main.b119704f.chunk.js"
   ]
 }
