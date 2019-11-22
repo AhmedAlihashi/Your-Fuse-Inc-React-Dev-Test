@@ -1,7 +1,18 @@
-import { combineReducers } from "redux";
-import data from "./dataReducer";
+let initialState = {
+  data: 4
+};
 
-//make it es6
-export default combineReducers({
-  data: data
-});
+const mainReducer = (state = initialState, action) => {
+  if (action.type === "GET_DATA") {
+    return {
+      ...state,
+      data: action.data
+    };
+  } else {
+    return {
+      ...state
+    };
+  }
+};
+
+export default mainReducer;

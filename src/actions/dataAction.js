@@ -1,8 +1,16 @@
-import * as actionTypes from "./actionTypes";
-//es6 imp
-export const getData = data => {
+import axios from "axios";
+
+export function loadData() {
+  return dispatch => {
+    return axios.get("https://api.coincap.io/v2/assets").then(response => {
+      dispatch(getData(response.data.data.slice(0, 10)));
+    });
+  };
+}
+
+export function getData(data) {
   return {
-    type: actionTypes.GET_DATA,
+    type: "GET_DATA",
     data: data
   };
-};
+}
