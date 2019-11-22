@@ -2,7 +2,7 @@
   "name": "your-fuse-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ahmedalihashi.github.io/Your-Fuse-Inc-React-Dev-Test",
+  "homepage": "https://ahmedalihashi.github.io/Your-Fuse-Inc-React-Dev-Test/",
   "dependencies": {
     "@material-ui/core": "^4.6.1",
     "axios": "^0.19.0",
